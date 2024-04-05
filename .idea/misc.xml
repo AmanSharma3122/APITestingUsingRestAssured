@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="jsonEditor">
+    <option name="stateMap">
+      <map>
+        <entry key="ApiTestingE2E" value="{&#10;&#9;&quot;data&quot;:[&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;bookName&quot;:&quot;Selenium Bootcamp&quot;,&#10;&#9;&#9;&#9;&quot;bookCode&quot;:&quot;seln&quot;,&#10;&#9;&#9;&#9;&quot;bookId&quot;:&quot;1234&quot;,&#10;&#9;&#9;&#9;&quot;authorName&quot;:&quot;Jason Cummins&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;bookName&quot;:&quot;Java for Beginers&quot;,&#10;&#9;&#9;&#9;&quot;bookCode&quot;:&quot;jfb&quot;,&#10;&#9;&#9;&#9;&quot;bookId&quot;:&quot;1546&quot;,&#10;&#9;&#9;&#9;&quot;authorName&quot;:&quot;Katey Gomez&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;bookName&quot;:&quot;Programming in C++&quot;,&#10;&#9;&#9;&#9;&quot;bookCode&quot;:&quot;pcp&quot;,&#10;&#9;&#9;&#9;&quot;bookId&quot;:&quot;2545&quot;,&#10;&#9;&#9;&#9;&quot;authorName&quot;:&quot;Sumita Arora&quot;&#10;&#9;&#9;}&#10;&#9;]&#10;}" />
+      </map>
+    </option>
+  </component>
+</project>
