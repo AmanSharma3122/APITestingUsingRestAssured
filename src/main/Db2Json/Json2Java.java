@@ -5,15 +5,21 @@ import java.io.IOException;
 
 public class Json2Java {
 
-    ApiResponse ApiResp= new ApiResponse();
-    APIInput apiInput = new APIInput();
+     
+     = new APIInput();
     ApiResponse jsResp2java(String fileName) throws IOException {
         ObjectMapper obj = new ObjectMapper();
-        return ApiResp = obj.readValue(new File(System.getProperty("user.dir")+"\\jsonFiles\\"+fileName), ApiResponse.class);
+        obj.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+        obj.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        ApiResponse ApiResp = obj.readValue(new File(System.getProperty("user.dir")+"\\jsonFiles\\"+fileName), ApiResponse.class);
+        return ApiResp;   
     }
 
     APIInput jsInp2Java(String fileName) throws IOException {
         ObjectMapper obj = new ObjectMapper();
-        return apiInput= obj.readValue(new File(System.getProperty("user.dir")+"\\jsonFiles\\"+fileName), APIInput.class);
+         obj.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+        obj.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        APIInput apiInput= obj.readValue(new File(System.getProperty("user.dir")+"\\jsonFiles\\"+fileName), APIInput.class);
+       return apiInput;
     }
 }
